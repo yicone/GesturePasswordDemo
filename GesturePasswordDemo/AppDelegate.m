@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "GesturePasswordController.h"
+#import "DiskGesturePasswordStore.h"
+#import "GesturePasswordViewController.h"
+#import "GesturePasswordTestViewController.h"
+#import "GesturePasswordControllerDelegate.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +19,49 @@
 
 @implementation AppDelegate
 
+@synthesize window, viewController;
+
+static GesturePasswordController *GESTURE_PASSWORD_CONTROLLER = nil;
+
+- (instancetype)init{
+    GESTURE_PASSWORD_CONTROLLER = [[GesturePasswordController alloc] initWithStore:[[DiskGesturePasswordStore alloc] init]];
+
+    self = [super init];
+    return self;
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.viewController = [[GesturePasswordTestViewController alloc] init];
+    self.window.rootViewController = self.viewController;
+    
+    [self.window makeKeyAndVisible];
+
+    GesturePasswordViewController *gpvc = [[GesturePasswordViewController alloc] init];
+    __weak AppDelegate *weakSelf = self;
+    [GESTURE_PASSWORD_CONTROLLER setOnViewActionsWithOnReadyReset:^(ViewActionCallbackBlock onViewActionCallback){
+        gpvc.mode = MODE_RESET;
+        gpvc.onViewActionCallback = onViewActionCallback;
+        [weakSelf.viewController presentViewController:gpvc animated:YES completion:nil];
+    } onReadyChange:^(ViewActionCallbackBlock viewActionCallback){
+        gpvc.mode = MODE_CHANGE;
+        gpvc.onViewActionCallback = viewActionCallback;
+        [weakSelf.viewController presentViewController:gpvc animated:YES completion:nil];
+    } onReadyValidate:^(ViewActionCallbackBlock viewActionCallback) {
+        UIViewController *presentedViewController = [weakSelf.viewController presentedViewController];
+        if (presentedViewController != nil) {
+            GesturePasswordViewController *gpvc2 = [[GesturePasswordViewController alloc] init];
+            gpvc2.onViewActionCallback = viewActionCallback;
+            [gpvc presentViewController:gpvc2 animated:YES completion:nil];
+            return ;
+        }
+
+        gpvc.mode = MODE_VALIDATE;
+        gpvc.onViewActionCallback = viewActionCallback;
+        [weakSelf.viewController presentViewController:gpvc animated:YES completion:nil];
+    }];
+
     return YES;
 }
 
@@ -40,6 +85,10 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
++ (NSObject <GesturePasswordControllerDelegate> *)getGesturePasswordController {
+    return GESTURE_PASSWORD_CONTROLLER;
 }
 
 @end

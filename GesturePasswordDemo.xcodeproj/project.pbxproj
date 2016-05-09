@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1835866E1CE02DA7003ED0EC /* GesturePasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183586601CE02DA7003ED0EC /* GesturePasswordController.m */; };
+		1835866F1CE02DA7003ED0EC /* GesturePasswordTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183586611CE02DA7003ED0EC /* GesturePasswordTestViewController.xib */; };
+		183586701CE02DA7003ED0EC /* GesturePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183586621CE02DA7003ED0EC /* GesturePasswordViewController.m */; };
+		183586711CE02DA7003ED0EC /* DiskGesturePasswordStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 183586661CE02DA7003ED0EC /* DiskGesturePasswordStore.m */; };
+		183586721CE02DA7003ED0EC /* GesturePasswordTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183586681CE02DA7003ED0EC /* GesturePasswordTestViewController.m */; };
+		183586731CE02DA7003ED0EC /* GesturePasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835866A1CE02DA7003ED0EC /* GesturePasswordView.m */; };
+		183586741CE02DA7003ED0EC /* MemoryGesturePasswordStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835866B1CE02DA7003ED0EC /* MemoryGesturePasswordStore.m */; };
 		18CFB4EC1CD387AC00FF1DF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CFB4EB1CD387AC00FF1DF5 /* main.m */; };
 		18CFB4EF1CD387AC00FF1DF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CFB4EE1CD387AC00FF1DF5 /* AppDelegate.m */; };
 		18CFB4F21CD387AC00FF1DF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CFB4F11CD387AC00FF1DF5 /* ViewController.m */; };
 		18CFB4F51CD387AC00FF1DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CFB4F31CD387AC00FF1DF5 /* Main.storyboard */; };
 		18CFB4F71CD387AC00FF1DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CFB4F61CD387AC00FF1DF5 /* Assets.xcassets */; };
 		18CFB4FA1CD387AC00FF1DF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CFB4F81CD387AC00FF1DF5 /* LaunchScreen.storyboard */; };
+		AB170196ED5FABAC15850C3C /* Pods_GesturePasswordDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C854A73CA1697DC3533C0C00 /* Pods_GesturePasswordDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04C8F1B57AD0E11F9384A444 /* Pods-GesturePasswordDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GesturePasswordDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GesturePasswordDemo/Pods-GesturePasswordDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		183586601CE02DA7003ED0EC /* GesturePasswordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturePasswordController.m; sourceTree = "<group>"; };
+		183586611CE02DA7003ED0EC /* GesturePasswordTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GesturePasswordTestViewController.xib; sourceTree = "<group>"; };
+		183586621CE02DA7003ED0EC /* GesturePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturePasswordViewController.m; sourceTree = "<group>"; };
+		183586631CE02DA7003ED0EC /* GesturePasswordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturePasswordController.h; sourceTree = "<group>"; };
+		183586641CE02DA7003ED0EC /* GesturePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturePasswordViewController.h; sourceTree = "<group>"; };
+		183586651CE02DA7003ED0EC /* DiskGesturePasswordStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiskGesturePasswordStore.h; sourceTree = "<group>"; };
+		183586661CE02DA7003ED0EC /* DiskGesturePasswordStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiskGesturePasswordStore.m; sourceTree = "<group>"; };
+		183586671CE02DA7003ED0EC /* GesturePasswordTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturePasswordTestViewController.h; sourceTree = "<group>"; };
+		183586681CE02DA7003ED0EC /* GesturePasswordTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturePasswordTestViewController.m; sourceTree = "<group>"; };
+		183586691CE02DA7003ED0EC /* GesturePasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturePasswordView.h; sourceTree = "<group>"; };
+		1835866A1CE02DA7003ED0EC /* GesturePasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturePasswordView.m; sourceTree = "<group>"; };
+		1835866B1CE02DA7003ED0EC /* MemoryGesturePasswordStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoryGesturePasswordStore.m; sourceTree = "<group>"; };
+		1835866C1CE02DA7003ED0EC /* GesturePasswordStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturePasswordStore.h; sourceTree = "<group>"; };
+		1835866D1CE02DA7003ED0EC /* MemoryGesturePasswordStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryGesturePasswordStore.h; sourceTree = "<group>"; };
+		183586751CE02E02003ED0EC /* GesturePasswordControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturePasswordControllerDelegate.h; sourceTree = "<group>"; };
 		18CFB4E71CD387AC00FF1DF5 /* GesturePasswordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GesturePasswordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CFB4EB1CD387AC00FF1DF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18CFB4ED1CD387AC00FF1DF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +50,9 @@
 		18CFB4F61CD387AC00FF1DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18CFB4F91CD387AC00FF1DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18CFB4FB1CD387AC00FF1DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19FD5627F7B5E387B27F3927 /* Pods-GesturePasswordDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GesturePasswordDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GesturePasswordDemo/Pods-GesturePasswordDemo.release.xcconfig"; sourceTree = "<group>"; };
+		58B838ECAD97E0DC3CBB9C2C /* GesturePasswordDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GesturePasswordDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C854A73CA1697DC3533C0C00 /* Pods_GesturePasswordDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GesturePasswordDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +60,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB170196ED5FABAC15850C3C /* Pods_GesturePasswordDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13D08C56E9FDC5C300E58644 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C854A73CA1697DC3533C0C00 /* Pods_GesturePasswordDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1835865F1CE02D20003ED0EC /* GesturePassword */ = {
+			isa = PBXGroup;
+			children = (
+				183586751CE02E02003ED0EC /* GesturePasswordControllerDelegate.h */,
+				183586601CE02DA7003ED0EC /* GesturePasswordController.m */,
+				183586611CE02DA7003ED0EC /* GesturePasswordTestViewController.xib */,
+				183586621CE02DA7003ED0EC /* GesturePasswordViewController.m */,
+				183586631CE02DA7003ED0EC /* GesturePasswordController.h */,
+				183586641CE02DA7003ED0EC /* GesturePasswordViewController.h */,
+				183586651CE02DA7003ED0EC /* DiskGesturePasswordStore.h */,
+				183586661CE02DA7003ED0EC /* DiskGesturePasswordStore.m */,
+				183586671CE02DA7003ED0EC /* GesturePasswordTestViewController.h */,
+				183586681CE02DA7003ED0EC /* GesturePasswordTestViewController.m */,
+				183586691CE02DA7003ED0EC /* GesturePasswordView.h */,
+				1835866A1CE02DA7003ED0EC /* GesturePasswordView.m */,
+				1835866B1CE02DA7003ED0EC /* MemoryGesturePasswordStore.m */,
+				1835866C1CE02DA7003ED0EC /* GesturePasswordStore.h */,
+				1835866D1CE02DA7003ED0EC /* MemoryGesturePasswordStore.h */,
+			);
+			path = GesturePassword;
+			sourceTree = "<group>";
+		};
 		18CFB4DE1CD387AC00FF1DF5 = {
 			isa = PBXGroup;
 			children = (
 				18CFB4E91CD387AC00FF1DF5 /* GesturePasswordDemo */,
 				18CFB4E81CD387AC00FF1DF5 /* Products */,
+				703B9543D804AE20DCA33EC3 /* Pods */,
+				13D08C56E9FDC5C300E58644 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +118,7 @@
 		18CFB4E91CD387AC00FF1DF5 /* GesturePasswordDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1835865F1CE02D20003ED0EC /* GesturePassword */,
 				18CFB4ED1CD387AC00FF1DF5 /* AppDelegate.h */,
 				18CFB4EE1CD387AC00FF1DF5 /* AppDelegate.m */,
 				18CFB4F01CD387AC00FF1DF5 /* ViewController.h */,
@@ -67,6 +128,7 @@
 				18CFB4F81CD387AC00FF1DF5 /* LaunchScreen.storyboard */,
 				18CFB4FB1CD387AC00FF1DF5 /* Info.plist */,
 				18CFB4EA1CD387AC00FF1DF5 /* Supporting Files */,
+				58B838ECAD97E0DC3CBB9C2C /* GesturePasswordDemo-Prefix.pch */,
 			);
 			path = GesturePasswordDemo;
 			sourceTree = "<group>";
@@ -79,6 +141,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		703B9543D804AE20DCA33EC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04C8F1B57AD0E11F9384A444 /* Pods-GesturePasswordDemo.debug.xcconfig */,
+				19FD5627F7B5E387B27F3927 /* Pods-GesturePasswordDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +157,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18CFB4FE1CD387AC00FF1DF5 /* Build configuration list for PBXNativeTarget "GesturePasswordDemo" */;
 			buildPhases = (
+				3F0E1AD05E76E28C05DA67F9 /* Check Pods Manifest.lock */,
 				18CFB4E31CD387AC00FF1DF5 /* Sources */,
 				18CFB4E41CD387AC00FF1DF5 /* Frameworks */,
 				18CFB4E51CD387AC00FF1DF5 /* Resources */,
+				68D441EE43636F3E34BE3B76 /* Embed Pods Frameworks */,
+				4CF730CA41506533D2890F2D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,19 +214,74 @@
 				18CFB4FA1CD387AC00FF1DF5 /* LaunchScreen.storyboard in Resources */,
 				18CFB4F71CD387AC00FF1DF5 /* Assets.xcassets in Resources */,
 				18CFB4F51CD387AC00FF1DF5 /* Main.storyboard in Resources */,
+				1835866F1CE02DA7003ED0EC /* GesturePasswordTestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F0E1AD05E76E28C05DA67F9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4CF730CA41506533D2890F2D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GesturePasswordDemo/Pods-GesturePasswordDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68D441EE43636F3E34BE3B76 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GesturePasswordDemo/Pods-GesturePasswordDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18CFB4E31CD387AC00FF1DF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183586721CE02DA7003ED0EC /* GesturePasswordTestViewController.m in Sources */,
+				183586701CE02DA7003ED0EC /* GesturePasswordViewController.m in Sources */,
+				1835866E1CE02DA7003ED0EC /* GesturePasswordController.m in Sources */,
 				18CFB4F21CD387AC00FF1DF5 /* ViewController.m in Sources */,
+				183586711CE02DA7003ED0EC /* DiskGesturePasswordStore.m in Sources */,
+				183586731CE02DA7003ED0EC /* GesturePasswordView.m in Sources */,
 				18CFB4EF1CD387AC00FF1DF5 /* AppDelegate.m in Sources */,
 				18CFB4EC1CD387AC00FF1DF5 /* main.m in Sources */,
+				183586741CE02DA7003ED0EC /* MemoryGesturePasswordStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,23 +391,29 @@
 		};
 		18CFB4FF1CD387AC00FF1DF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04C8F1B57AD0E11F9384A444 /* Pods-GesturePasswordDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "GesturePasswordDemo/GesturePasswordDemo-Prefix.pch";
 				INFOPLIST_FILE = GesturePasswordDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ppf.GesturePasswordDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Debug;
 		};
 		18CFB5001CD387AC00FF1DF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19FD5627F7B5E387B27F3927 /* Pods-GesturePasswordDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "GesturePasswordDemo/GesturePasswordDemo-Prefix.pch";
 				INFOPLIST_FILE = GesturePasswordDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ppf.GesturePasswordDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Release;
 		};
@@ -301,6 +436,7 @@
 				18CFB5001CD387AC00FF1DF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

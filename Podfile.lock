@@ -1,0 +1,13 @@
+PODS:
+  - KKGestureLockView (1.0.0)
+  - Masonry (0.6.3)
+
+DEPENDENCIES:
+  - KKGestureLockView (~> 1.0)
+  - Masonry (~> 0.6)
+
+SPEC CHECKSUMS:
+  KKGestureLockView: b27a33d2fe7995cd3c5e548dab1a8db7947322b8
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+
+COCOAPODS: 0.39.0

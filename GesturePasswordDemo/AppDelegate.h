@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol GesturePasswordControllerDelegate;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) IBOutlet UIWindow* window;
+@property (nonatomic, strong) IBOutlet UIViewController* viewController;
 
-
++ (NSObject <GesturePasswordControllerDelegate> *)getGesturePasswordController;
 @end
 
